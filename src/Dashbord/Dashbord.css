@@ -1,0 +1,754 @@
+.subdiv{
+    width: 50%;
+    margin-top: 30px;
+    position: relative;
+    left: 70px;
+    display: flex;
+}
+.container1{
+    width: 220px;
+    background-color: #fffcfc;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin:  0 15px;
+    border: 1px solid rgb(23, 138, 231);
+}
+.text{
+    position: relative;
+    top: 15px;
+}
+.text p{
+    color: rgb(0, 0, 0);
+    font-size: 8pt;
+    margin-top: 5px;
+}
+.text .count{
+    color: rgb(42, 110, 255);
+    font-size: 20pt;
+}
+.icon{
+    position: relative;
+    top: 12px;
+    right: 7px;
+}
+.icon p{
+    color: rgb(40, 89, 252);
+    font-size: 18pt;
+    position: relative;
+    left: 25px;
+}
+.one{
+    display: flex;
+}
+.two{
+    display: flex;
+}
+
+.increasratio .increas{
+    font-size: 8pt;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 7px;
+}
+.increasratio .increas i{
+    color: rgb(30, 240, 30);
+    font-size: 12pt;
+    position: relative;
+}
+.mainchat{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.chart{
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 50%;
+    height: 220px;
+}
+.chart1{
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 25px;
+    width: 50%;
+    height: 220px;
+}
+.scrollable-container {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .scrollable-container {
+    max-width: 100%; /* Adjust as needed */
+    max-height: 500px; /* Adjust as needed */
+  }
+  .scrollable-container::-webkit-scrollbar{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* Order Status CSS Define Hear */
+.ordertabil {
+    width: 90%;
+   margin-left: 65px;
+    border-collapse: collapse;
+    position: relative;
+    left: 20px;
+    
+}
+ .odertd {
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #d9ebeb;
+    color: rgb(40, 41, 44);
+}
+.ordersmain{
+    position: relative;
+    top: 45px;
+    width: 100%;
+    display: flex;
+}
+.orderth{
+text-align: center;
+ background-color: rgb(16, 80, 255);
+ margin: 15px 15px;
+ color: white;
+ border:  1px solid #ffffff;
+ padding: 8px ;
+}
+.orderlist{
+    width: 50%;
+    /* background-color: red; */
+    position: relative;
+    top: 25px;
+    /* overflow: hidden; */
+    max-height: 220px;
+}
+.grapdiv{
+    width: 50%;
+    height: 350px;
+    position: relative;
+    top: 115px;
+    overflow: hidden;
+    
+}
+.mainlink{
+   position: relative; 
+   left: 30px;
+    color: rgb(61, 145, 224);
+  
+}
+.backlogdiv{
+    width: 90%;
+    height: 40px;
+    background-color: #8884d8;
+    position: relative;
+    left: 85px;
+    top: 25px;
+    border-bottom: 1px solid white;
+}
+.backlogdiv h4{
+    color: #fffcfc;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+.Todayorderdiv{
+    width: 90%;
+    height: 40px;
+    background-color: #19b69c;
+    position: relative;
+    left: 85px;
+    top: 25px;
+    border-bottom: 1px solid white;
+}
+.Todayorderdiv h4{
+    color: #fffcfc;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+.TomorrowTodayorderdiv{
+    width: 90%;
+    height: 40px;
+    background-color: #1fd65c;
+    position: relative;
+    left: 85px;
+    top: 25px;
+}
+.TomorrowTodayorderdiv h4{
+    color: #fffcfc;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+.Ordercountdiv{
+    width: 90%;
+    height: 40px;
+    background-color: #1fabd6;
+    position: relative;
+    left: 85px;
+    top: 25px;
+    border-top: 1px solid white;
+}
+.Ordercountdiv h4{
+    color: #fffcfc;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1323px) {
+    .subdiv{
+        width: 50%;
+        margin-top: 30px;
+        position: relative;
+        left: 70px;
+        display: flex;
+    }
+    .container1{
+        width: 220px;
+        background-color: #fffcfc;
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 5px;
+        margin:  0 10px;
+        border: 1px solid rgb(23, 138, 231);
+    }
+    
+}
+@media screen and (max-width: 1276px) {
+    .container1{
+        width: 200px;
+        margin:  0 10px;
+    }
+    .subdiv{
+        width: 50%;
+        margin-top: 30px;
+        position: relative;
+        left: 70px;
+        display: flex;
+    }
+}
+@media screen and (max-width: 1186px) {
+    .container1{
+        width: 190px;
+        margin:  0 10px;
+    }
+}
+@media screen and (max-width: 1140px) {
+    .subdiv{
+        width: 50%;
+        margin-top: 30px;
+        position: relative;
+        left: 50px;
+        display: flex;
+    }
+}
+@media screen and (max-width: 1111px) {
+    .container1{
+        width: 180px;
+        margin:  0 10px;
+    }
+}
+@media screen and (max-width: 1063px){
+    .container1{
+        width: 170px;
+        margin:  0 10px;
+    }
+}
+@media screen and (max-width: 1013px) {
+    .container1{
+        width: 160px;
+        margin:  0 10px;
+    }
+}
+@media screen and (max-width: 965px) {
+    .container1{
+        width: 150px;
+        margin:  0 10px;
+    }
+    .mainchat{
+        display: flex;
+        width: 95%;
+    }
+}
+@media screen and (max-width: 909px) {
+    .container1{
+        width: 140px;
+        margin:  0 10px;
+    }
+    .icon .increasratio .increas{
+        display: none;
+    }
+    .icon p{
+        color: rgb(40, 89, 252);
+        font-size: 18pt;
+        position: relative;
+        left: 2px;
+    }
+    .text p{
+        color: rgb(40, 89, 252);
+        font-size: 8pt;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 862px) {
+    .container1{
+        width: 130px;
+        margin:  0 8px;
+    }
+    .grapdiv{
+        width: 50%;
+        height: 300px;
+        position: relative;
+        top: 115px;
+        overflow: hidden;
+        
+    }
+}
+@media screen and (max-width: 793px) {
+    .subdiv{
+        display: block;
+    }
+    .container1{
+        width: 220px;
+        margin:  0 8px;
+    }
+    .two .container1{
+        width: 340px;
+        margin:  0 8px;
+    }
+    .two{
+        display: flex;
+        margin-top: 10px;
+    }
+    .icon .increasratio .increas{
+        display: flex;
+    }
+    .increasratio .increas i{
+        margin: 0 5px;
+    }
+    .icon p{
+        position: relative;
+        left: 15px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container1{
+        width: 210px;
+        margin:  0 8px;
+    }
+    .two .container1{
+        width: 325px;
+        margin:  0 8px;
+    }
+    .grapdiv{
+        width: 50%;
+        height: 250px;
+        position: relative;
+        top: 125px;
+        overflow: hidden;
+        
+    }
+}
+@media screen and (max-width: 737px) {
+    .container1{
+        width: 200px;
+        margin:  0 8px;
+    }
+    .two .container1{
+        width: 310px;
+        margin:  0 8px;
+    }
+}
+@media screen and (max-width: 709px) {
+    .container1{
+        width: 190px;
+        margin:  0 8px;
+    }
+    .two .container1{
+        width: 295px;
+        margin:  0 8px;
+    }
+    .ordersmain{
+       display: block;
+       position: relative;
+       top: 45px;
+       width: 100%;
+    }
+    .grapdiv{
+        width: 100%;
+        height: 350px;
+        position: relative;
+        top: 375px;
+        overflow: hidden;
+        
+    }
+    .ordertabil {
+        width: 90%;
+       margin-left: 30px;
+        border-collapse: collapse;
+        position: relative;
+        left: 28px;
+        top: 40px;
+
+        
+    }
+    .orderlist{
+        width: 100%;
+        position: relative;
+        top: 25px;
+        max-height: 220px;
+        justify-content: center;
+        
+    }
+    /* Ordrer Top Divs */
+    .backlogdiv{
+        width: 100%;
+        height: 40px;
+        background-color: #8884d8;
+        position: relative;
+        left: 0px;
+        top: 25px;
+        border-bottom: 1px solid white;
+    }
+    .Todayorderdiv{
+        width: 100%;
+        height: 40px;
+        background-color: #19b69c;
+        position: relative;
+        left: 0px;
+        top: 25px;
+        border-bottom: 1px solid white;
+    }
+    .TomorrowTodayorderdiv{
+
+        width: 100%;
+        height: 40px;
+        background-color: #1fd65c;
+        position: relative;
+        left: 0px;
+        top: 25px;
+    }
+    .Ordercountdiv{
+        width: 100%;
+        height: 40px;
+        background-color: #1fabd6;
+        position: relative;
+        left: 0px;
+        top: 25px;
+        border-top: 1px solid white;
+    }
+    
+}
+@media screen and (max-width: 678px) {
+    .container1{
+        width: 180px;
+        margin:  0 8px;
+    }
+    .two .container1{
+        width: 280px;
+        margin:  0 8px;
+    }
+    /* Orders Divs */
+    /* .backlogdiv{
+        width: 610px;
+    }
+    .Todayorderdiv{
+        width: 610px;
+    }
+    .TomorrowTodayorderdiv{
+        width: 610px;
+    }
+    .Ordercountdiv{
+        width: 610px;
+    } */
+}
+@media screen and (max-width: 649px) {
+    .container1{
+        width: 170px;
+        margin:  0 8px;
+    }
+    .two .container1{
+        width: 265px;
+        margin:  0 8px;
+    }
+}
+@media screen and (max-width: 618px) {
+    .container1{
+        width: 160px;
+        margin:  0 8px;
+    }
+    .two .container1{
+        width: 250px;
+        margin:  0 8px;
+    }
+    .mainchat{
+        display: block;
+        /* width: 95%; */
+        margin: 5px 0;
+    }
+    .chart{
+        width: 95%;
+        margin-bottom: 15px;
+        /* left: 10px; */
+        position: relative;
+    } 
+ .chart1{
+     position: relative;
+     top: 65px;
+        width: 95%;
+        left: 10px;
+    }
+    .ordersmain{
+        display: block;
+        position: relative;
+        top: 115px;
+     }
+     .ordertabil {
+        width: 90%;
+       margin-left: 30px;
+        border-collapse: collapse;
+        position: relative;
+        left: 25px;
+        top: 30px;
+
+        
+    }
+}
+@media screen and (max-width: 588px) {
+    .container1{
+        width: 150px;
+        margin:  0 8px;
+    }
+    .two .container1{
+        width: 235px;
+        margin:  0 8px;
+    }
+   
+}
+@media screen and (max-width: 559px) {
+    .container1{
+        width: 140px;
+        margin:  0 8px;
+    }
+    .two .container1{
+        width: 220px;
+        margin:  0 8px;
+    }
+    .ordersmain{
+        display: block;
+        position: relative;
+        top: 115px;
+     }
+     .ordertabil {
+        width: 90%;
+       margin-left: 30px;
+        border-collapse: collapse;
+        position: relative;
+        left: 23px;
+        top: 30px;
+
+        
+    }
+}
+@media screen and (max-width: 524px) {
+    .one{
+        display: block;
+    }
+    .two{
+        display: block;
+    }
+    .container1{
+        width: 390px;
+        margin:  8px 8px;
+        height: 100px;
+    }
+    .two .container1{
+        width: 390px;
+        margin:  8px 8px;
+    }
+    .subdiv{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 514px) {
+    .ordersmain{
+        display: block;
+        position: relative;
+        top: 115px;
+     }
+     .ordertabil {
+        width: 90%;
+       margin-left: 30px;
+        border-collapse: collapse;
+        position: relative;
+        left: 21px;
+        top: 20px;
+
+        
+    }
+    .grapdiv{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        top: 325px;
+        left: 25px;
+        overflow: hidden;
+        
+    }
+    .mainlink{
+        position: relative; 
+        left: 20px;
+         color: rgb(61, 145, 224);
+       
+     }
+     .odertd {
+        border: 1px solid #ffffff;
+        padding: 10px 15px;
+        text-align: center;
+        background-color: #d9ebeb;
+        color: rgb(40, 41, 44);
+        font-size: 9pt;
+    }
+}
+@media screen and (max-width: 500px) {
+    .subdiv{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 485px) {
+    .subdiv{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 476px) {
+    .container1{
+        width: 380px;
+        margin:  8px 8px;
+        height: 100px;
+    }
+    .two .container1{
+        width: 380px;
+        margin:  8px 8px;
+    }
+}
+@media screen and (max-width: 466px) {
+    .subdiv{
+        margin-left: 5px;
+    }
+    .container1{
+        width: 360px;
+        margin:  8px 8px;
+        height: 100px;
+    }
+    .two .container1{
+        width: 360px;
+        margin:  8px 8px;
+    }
+}
+@media screen and (max-width: 438px) {
+    .container1{
+        width: 350px;
+        margin:  8px 8px;
+        height: 100px;
+    }
+    .two .container1{
+        width: 350px;
+        margin:  8px 8px;
+    }
+}
+@media screen and (max-width: 428px) {
+    .container1{
+        width: 340px;
+        margin:  8px 8px;
+        height: 100px;
+    }
+    .two .container1{
+        width: 340px;
+        margin:  8px 8px;
+    }
+}
+@media screen and (max-width: 417px) {
+    .container1{
+        width: 330px;
+        margin:  8px 8px;
+        height: 100px;
+    }
+    .two .container1{
+        width: 330px;
+        margin:  8px 8px;
+    }
+}
+@media screen and (max-width: 403px) {
+    .container1{
+        width: 320px;
+        margin:  8px 8px;
+        height: 100px;
+    }
+    .two .container1{
+        width: 320px;
+        margin:  8px 8px;
+    }
+}
+@media screen and (max-width: 393px) {
+    .subdiv{
+        margin-left: 1px;
+    }
+    .container1{
+        width: 310px;
+        margin:  8px 8px;
+        height: 100px;
+    }
+    .two .container1{
+        width: 310px;
+        margin:  8px 8px;
+    }
+}
+@media screen and (max-width: 379px){
+    .container1{
+        width: 300px;
+        margin:  8px 8px;
+        height: 100px;
+    }
+    .two .container1{
+        width: 300px;
+        margin:  8px 8px;
+    }
+}
+@media screen and (max-width: 369px){
+    .container1{
+        width: 290px;
+        margin:  8px 8px;
+        height: 100px;
+    }
+    .two .container1{
+        width: 290px;
+        margin:  8px 8px;
+    }
+}

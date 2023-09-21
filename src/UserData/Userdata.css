@@ -1,0 +1,672 @@
+.hero-perent{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0;
+}
+.hero-subperent{
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+.childone{
+    width: 580px;
+    background-color: #21a1c9;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.9);
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 580px;
+
+    padding-bottom: 35px;
+}
+.childone .first{
+    margin: 25px 30px;  
+}
+.childone .first p{
+   color: #ffffff;
+   font-size: 15pt;  
+}
+.childone .second{
+    margin: 25px 30px;
+}
+.onediv{
+    display: flex;
+}
+.childtwo{
+    width: 580px;
+    /* height: 280px; */
+    max-height: 390px;
+    background-color: rgb(32, 201, 164);
+    box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.9);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin: 0 5px;
+}
+.childthree{
+    width: 580px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+.second img{
+    width: 50px;
+    border-radius: 50%;
+}
+.shopdetails {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 180%;
+    position: relative;
+    top: 25px;
+    border-collapse: collapse;
+  }
+   th{
+    padding: 5px;
+    text-align: left;
+    width: 20px;
+    /* font-size: 15pt; */
+  } 
+  th {
+    font-weight: bold;
+  }
+  .Linked{
+    position: relative;
+    /* right: 125px; */
+    color: green;
+    /* width: 50px; */
+  }
+  .numberlinkstatus{
+    color: green;
+    position: relative;
+    right: 95px;
+  }
+.ooop i{
+ color: green;
+ margin: 0 5px;
+}
+.ooop{
+  color: white;
+}
+.childtwo .subchildtwo .catagory{
+  color: #181717;
+  font-size: 15pt;
+  margin: 15px 15px;
+}
+.childtwo .subchildtwo {
+  position: relative;
+  left: 25px;
+  top: 10px;
+ display: block;
+}
+
+.childtwo .subchildtwo .subchildtr{
+  margin: 0 15px;
+
+}
+.subchildtwo h4{
+  text-align: start;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  position: relative;
+  top: 10px;
+}
+
+
+.childtwo .subchildtwo .catagory .mainur{
+ font-size: 12pt;
+}
+.maintabil{
+ padding: 5px ;
+ width: 20px;
+ color: white;
+}
+.maintabil .mainp{
+  display: flex;
+  margin: 0 10px;
+  position: relative;
+}
+.maintabil .mainp i{
+  font-size: 15pt;
+}
+.maintabil .mainpp{
+  position: relative;
+  bottom: 5px;
+}
+.scrollable-container {
+  max-height: 90vh; 
+  overflow-y: auto;
+  overflow-x: hidden
+}
+.scrollable-container::-webkit-scrollbar{
+  display: none;
+}
+
+/* Childtwo Tabil Css */
+
+/* Style the table */
+.Tabil {
+  border-collapse: collapse;
+  width: 90%;
+  position: relative;
+  bottom: 25px;
+  border-radius: 25px;
+  
+}
+
+/* Style the table rows */
+.Tabil tr{
+}
+
+/* Style the table cells */
+.Tabil td {
+  padding: 8px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+/* Add a hover effect to the table rows */
+.Tabil tr:hover {
+  background-color: #e0e0e0;
+
+}
+
+/* Style the table headers */
+.Tabil th {
+  background-color: #333;
+  padding: 8px;
+ 
+}
+
+/* Style the cells in the second column with a different background color */
+.Childtwotabiltd:nth-child(2) {
+  color: rgb(51, 50, 50);
+}
+
+
+
+
+
+
+
+/* Slide Button */
+
+
+.small-toggle {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.small-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px; 
+  width: 16px; 
+  left: 2px; 
+  bottom: 2px; 
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px); 
+}
+
+
+/* End Hear and Start Mediaquary */
+
+
+
+
+@media screen and (max-width: 1191px) {
+  .childone{
+    width: 500px;
+    height: 280px;
+  }
+  .childtwo{
+    width: 500px;
+    height: 280px;
+  }
+  .childthree{
+    width: 500px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 1121px) {
+  .childone{
+    width: 480px;
+    height: 280px;
+  }
+  .childtwo{
+    width: 480px;
+    height: 280px;
+  }
+  .childthree{
+    width: 480px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 1092px) {
+  .childone{
+    width: 450px;
+    height: 280px;
+  }
+  .childtwo{
+    width: 450px;
+    height: 280px;
+  }
+  .childthree{
+    width: 450px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 1033px) {
+  .childone{
+    width: 420px;
+    height: 280px;
+  }
+  .childtwo{
+    width: 420px;
+    height: 280px;
+  }
+  .childthree{
+    width: 420px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 975px) {
+  .childone{
+    width: 400px;
+    height: 280px;
+  }
+  .childtwo{
+    width: 400px;
+    height: 280px;
+  }
+  .childthree{
+    width: 400px;
+    height: 280px;
+  }
+  .second img{
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    right: 15px;
+}
+}
+@media screen and (max-width: 937px) {
+  .childone{
+    width: 380px;
+    height: 280px;
+  }
+  .childtwo{
+    width: 380px;
+    height: 280px;
+  }
+  .childthree{
+    width: 380px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 902px) {
+  .hero-subperent{
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+}
+@media screen and (max-width: 871px) {
+  .childone{
+    width: 360px;
+    height: 280px;
+  }
+  .childtwo{
+    width: 360px;
+    height: 280px;
+  }
+  .childthree{
+    width: 360px;
+    height: 280px;
+  }
+  .childone .first p{
+    font-size: 12pt;  
+ }
+ .second img{
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  right: 15px;
+}
+ .maintabil{
+  font-size: 11pt;
+ }
+}
+@media screen and (max-width: 828px) {
+  .childone{
+    width: 350px;
+    height: 280px;
+  }
+  .childtwo{
+    width: 350px;
+    height: 280px;
+  }
+  .childthree{
+    width: 350px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 805px) {
+  .onediv{
+    display: block;
+    width: 100%;
+    
+}
+.childone{
+  width: 650px;
+  height: 280px;
+  margin: 10px 0;
+}
+.childtwo{
+  width: 650px;
+  height: 280px;
+}
+.childthree{
+  width: 650px;
+  height: 280px;
+}
+.hero-subperent{
+  width: 80%;
+  margin-top: 15px;
+  margin-left: 95px;
+}
+}
+@media screen and (max-width: 785px){
+  .childone{
+    width: 620px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 620px;
+    height: 280px;
+  }
+  .childthree{
+    width: 620px;
+    height: 280px;
+  }
+  .hero-subperent{
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 736px) {
+  .childone{
+    width: 590px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 590px;
+    height: 280px;
+  }
+  .childthree{
+    width: 590px;
+    height: 280px;
+  }
+  .hero-subperent{
+    margin-left: 75px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .childone{
+    width: 540px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 540px;
+    height: 280px;
+  }
+  .childthree{
+    width: 540px;
+    height: 280px;
+  }
+  .hero-subperent{
+    margin-left: 75px;
+  }
+}
+@media screen and (max-width: 646px) {
+  .childone{
+    width: 500px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 500px;
+    height: 280px;
+  }
+  .childthree{
+    width: 500px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 612px) {
+  .childone{
+    width: 470px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 470px;
+    height: 280px;
+  }
+  .childthree{
+    width: 470px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 581px) {
+  .childone{
+    width: 450px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 450px;
+    height: 280px;
+  }
+  .childthree{
+    width: 450px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 562px) {
+  .childone{
+    width: 410px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 410px;
+    height: 280px;
+  }
+  .childthree{
+    width: 410px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 523px) {
+  .childone{
+    width: 380px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 380px;
+    height: 280px;
+  }
+  .childthree{
+    width: 380px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 489px) {
+  .childone{
+    width: 350px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 350px;
+    height: 280px;
+  }
+  .childthree{
+    width: 350px;
+    height: 280px;
+  }
+  .maintabil{
+    font-size: 10pt;
+    width: 20px;
+   }
+   .ooop{
+    font-size: 10pt;
+   }
+}
+@media screen and (max-width: 455px) {
+  .childone{
+    width: 320px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 320px;
+    height: 280px;
+  }
+  .childthree{
+    width: 320px;
+    height: 280px;
+  }
+  .usertabildata {
+    width: 160%;
+    position: relative;
+    top: 20px;
+    border-collapse: collapse;
+    right: 15px;
+  }
+  .second img{
+    width: 30px;
+    position: relative;
+    right: 15px;
+    bottom: 5px;
+   }
+   .ooop{
+    font-size: 9pt;
+   }
+}
+@media screen and (max-width: 411px) {
+  .childone{
+    width: 280px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 280px;
+    height: 280px;
+  }
+  .childthree{
+    width: 280px;
+    height: 280px;
+  }
+  usertabildata {
+    width: 160%;
+    position: relative;
+    top: 20px;
+    border-collapse: collapse;
+    right: 15px;
+  }
+  .second img{
+    width: 30px;
+    position: relative;
+    right: 55px;
+    bottom: 5px;
+   }
+}
+@media screen and (max-width: 433px) {
+  .childone{
+    width: 280px;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .childtwo{
+    width: 280px;
+    height: 280px;
+  }
+  .childthree{
+    width: 280px;
+    height: 280px;
+  }
+  .maintabil{
+    font-size: 8pt;
+    width: 20px;
+   }
+   .ooop{
+    font-size: 8pt;
+   }
+   .childone .first p{
+    font-size: 11pt;  
+    position: relative;
+    right: 10px;
+ }
+ .second img{
+  width: 30px;
+  position: relative;
+  right: 15px;
+  bottom: 5px;
+ }
+ .childtwo .subchildtwo .catagory{
+  color: #181717;
+  font-size: 15pt;
+  margin: 15px 15px;
+}
+.childtwo .subchildtwo .catagory .mainur{
+ font-size: 9pt;
+ margin: 0 10px;
+}
+}
+@media screen and (max-width: 382px) {
+  .hero-subperent{
+    width: 50%;
+    margin-left: 60px;
+}
+}
